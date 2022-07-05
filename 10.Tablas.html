@@ -1,0 +1,282 @@
+<!DOCTYPE html><!--ESQUEMA GENERAL HTML5-->
+<html lang="es"><!--CONTENEDOR PADRE El TRIBUTO LANG ES EL LENGUAJE -->
+       <head> <!--CABEZERA DEL DOCUMENTO NO ES VISUAL AL USUARIO-->
+              <meta name="viewport"    charset="UTF-8"> <!--PARA QUE EL NAVEGADOR PUEDA LEER CARACTERES ESPECIALES Y TAMBIEN UTF-16 Y UTF-32-->
+              <meta name="description" content="PROGRAMACION"><!--TEMA QUE SALDRA EN EL BUSCADOR -->
+              <meta name="robots"      content="index,follow"><!--SEAN VISIBLE EN TODOS LOS BUSCADOR -->
+              <meta name="viewport"    content="width=device-width, initial-scale=1.0"><!--SEAN RESPONSIVE LAS PAGINAS -->
+              <title>HTML DANNY-TABLAS</title> <!--TITULO DE MI PAGINA -->
+              <link   rel="stylesheet"    href="#"><!--LLAMA ESTILOS CSS DE LAS PAGINAS  -->
+              <script type="text/javascript" src="#"></script><!--LLAMA ARCHIVOS JAVASCRIPT  -->
+              <link rel="shortcut icon" href="imagenes/favicon-html.png"><!--IMAGEN DE ICO PARA LA VENTANA DE NAVEGACION-->
+       </head>
+        <body><!--CUERPO DEL DOCUMENTO-->
+             <section><!--CONTENEDOR SECCIONAMIENTOS-->
+                  <center><img src="imagenes/logo-html.png" ><!--INSERTA IMAGEN  -->  
+                  <center><h3>MI CURSO DE HTML DANNY JIMENEZ</h3>  <!--ETIQUETA DE TAMAÑAO DE LETRAS -->    
+              </section>    
+                     <header>
+                               <center><h1>TABLA</h1><hr>
+                                <br><a href="index.html">REGRESAR</a> <br><br>
+                      </header>                 
+                       <main>
+                        <BR> <fieldset><CENTER><b>TABLA</b> = table<br>	<hr>
+
+                                    <table ><!-- CREACION DE LA TABLA-->
+                                        <caption>PAISES <br></caption><!-- TITULO DE LA TABLA-->
+                                        <thead><!-- DEFINE ENCABEZADO TABLA-->
+                                          <tr><!-- CREACION DE LA FILA-->
+                                            <th>País</th><!-- CREACION ENCABEZADO-->
+                                            <th>Capital</th>
+                                            <th>Moneda</th>
+                                            <th>Moneda</th>
+                                          </tr>
+                                        </thead>
+                                        <tbody><!--DEFINE CUERPO DE LA TABLA-->
+                                          <tr><!--fila-->
+                                            <td>Reino de España</td><!--CREA LA COLUMNA-->
+                                            <td>Madrid</td>
+                                            <td>Euro</td>
+                                            <td>Moneda</td>
+                                          </tr>
+                                          <tr><!--fila-->
+                                            <td>Reino de España</td><!--CREA LA COLUMNA-->
+                                            <td>Madrid</td>
+                                            <td>Euro</td>
+                                            <td>Moneda</td>
+                                          </tr>
+                                          <tr><!--fila-->
+                                            <td>Reino de España</td><!--CREA LA COLUMNA-->
+                                            <td>Madrid</td>
+                                            <td>Euro</td>
+                                            <td>Moneda</td>
+                                          </tr>
+                                          <tr>
+                                            <td>Estados Unidos Mexicanos</td>
+                                            <td>Ciudad de México</td>
+                                            <td>Peso</td>
+                                            <td>Moneda</td>
+                                          </tr>
+                                        </tbody>
+                                        <tfoot><!--DEFINE EL PIE DE LA TABLA-->
+                                          <tr>
+                                            <th>País</th>
+                                            <th>Capital</th>
+                                            <th>Moneda</th>
+                                            <th>Moneda</th>
+                                          </tr>
+                                        </tfoot>
+                                      </table>
+
+                                   </fieldset><br> <br>
+                                <fieldset><CENTER><b>TABLA  CON BORDER</b><br>	<hr>
+
+                                    <table border="1"><!-- CREACION DE LA TABLA-->
+                                        <caption>BORDER  <br> = 1</caption><!-- TITULO DE LA TABLA-->
+                                        <thead><!-- DEFINE ENCABEZADO TABLA-->
+                                          <tr><!-- CREACION DE LA FILA-->
+                                            <th>País</th><!-- CREACION ENCABEZADO-->
+                                            <th>Capital</th>
+                                            <th>Moneda</th>
+                                            <th>Moneda</th>
+                                          </tr>
+                                        </thead>
+                                        <tbody><!--DEFINE CUERPO DE LA TABLA-->
+                                          <tr><!--fila-->
+                                            <td>Reino de España</td><!--CREA LA COLUMNA-->
+                                            <td>Madrid</td>
+                                            <td>Euro</td>
+                                            <td>Moneda</td>
+                                          </tr>
+                                          <tr><!--fila-->
+                                            <td>Reino de España</td><!--CREA LA COLUMNA-->
+                                            <td>Madrid</td>
+                                            <td>Euro</td>
+                                            <td>Moneda</td>
+                                          </tr>
+                                          <tr><!--fila-->
+                                            <td>Reino de España</td><!--CREA LA COLUMNA-->
+                                            <td>Madrid</td>
+                                            <td>Euro</td>
+                                            <td>Moneda</td>
+                                          </tr>
+                                          <tr>
+                                            <td>Estados Unidos Mexicanos</td>
+                                            <td>Ciudad de México</td>
+                                            <td>Peso</td>
+                                            <td>Moneda</td>
+                                          </tr>
+
+                                        </tbody>
+                                        <tfoot><!--DEFINE EL PIE DE LA TABLA-->
+                                          <tr>
+                                            <th>País</th>
+                                            <th>Capital</th>
+                                            <th>Moneda</th>
+                                            <th>Moneda</th>
+                                          </tr>
+                                        </tfoot>
+                                      </table>
+                                </fieldset><br> <br><br>
+
+
+                                <fieldset><CENTER><b>TABLA CON ETIQUETAS </b> rowspan Y colspan<br>	<hr>
+                                    <table border="1" style=”width: 100%”>
+                                        <caption>ESTILOS </caption>
+                                        <colgroup>
+                                            <col style="width: 20%"/>
+                                            <col style="width: 40%"/>
+                                            <col style="width: 40%"/>
+                                        </colgroup>
+                                        <thead>
+                                            <tr>
+                                                <th rowspan="2">Tabla Avanzada</th>
+                                                <th colspan="2">Cabecera Múltiples Columnas</th>
+                                            </tr>
+                                            <tr>
+                                                <th>Primera Col. Cab.</th>
+                                                <th>Segunda Col. Cab.</th>
+                                            </tr>
+                                        </thead>
+                                        <tfoot>
+                                            <tr>
+                                                <td colspan="3">Pie de tabla.</td>
+                                            </tr>
+                                        </tfoot>
+                                        <tbody>
+                                            <tr>
+                                                <th>Fila 1</th>
+                                                <td>Fila 1 Columna 1</td>
+                                                <td>Fila 1 Columna 2</td>
+                                            </tr>
+                                            <tr>
+                                                <th>Fila 2</th>
+                                                <td>Fila 2 Columna 1</td>
+                                                <td>Fila 2 Columna 2</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    
+                                      
+                                </fieldset><br> 
+
+                                <fieldset><CENTER><b>TABLA CON COMBINACION</b><br>	<hr>
+                                    <CAPTION ALIGN=bottom>Combinación de cabeceras superiores y laterales</CAPTION> <BR>       
+                                   
+                                    <TABLE BORDER>
+                                        <TR>
+                                        <TD><TH>TABLE</TH><TH>TR</TH><TH>TD</TH><TH>TH</TH><TH>CAPTION</TH></TD>
+                                        </TR>
+                                        
+                                        <TR ALIGN=CENTER>    
+                                        <TH>BORDER</TH><TD>X</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD>
+                                        </TR>
+                                        
+                                        <TR ALIGN=CENTER>    
+                                        <TH>ROWSPAN</TH><TD>-</TD><TD>-</TD><TD>X</TD><TD>X</TD><TD>-</TD>
+                                        </TR>
+                                        
+                                        <TR ALIGN=CENTER>    
+                                        <TH>COLSPAN</TH><TD>-</TD><TD>-</TD><TD>X</TD><TD>X</TD><TD>-</TD>
+                                        </TR>
+                                        
+                                        <TR ALIGN=CENTER>    
+                                        <TH>ALIGN</TH><TD>-</TD><TD>X</TD><TD>X</TD><TD>X</TD><TD>X</TD>
+                                        </TR>
+                                        
+                                        <TR ALIGN=CENTER>    
+                                        <TH>VALIGN</TH><TD>-</TD><TD>-</TD><TD>X</TD><TD>-</TD><TD>-</TD>
+                                        </TR>
+                                        
+                                        <TR ALIGN=CENTER>    
+                                        <TH>WIDTH</TH><TD>X</TD><TD>-</TD><TD>X</TD><TD>-</TD><TD>-</TD>
+                                        </TR>
+                                        
+                                        <TR ALIGN=CENTER>    
+                                        <TH>HEIGTH</TH><TD>X</TD><TD>-</TD><TD>X</TD><TD>-</TD><TD>-</TD>
+                                        </TR>
+                                        
+                                        <TR ALIGN=CENTER>    
+                                        <TH>CELLPADDING</TH><TD>X</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD>
+                                        </TR>
+                                        
+                                        <TR ALIGN=CENTER>    
+                                        <TH>CELLSPACING</TH><TD>X</TD><TD>-</TD><TD>-</TD><TD>-</TD><TD>-</TD>
+                                        </TR>
+                                        </TABLE>
+                                        
+                                      
+                                </fieldset>
+
+
+
+
+                                <br><br><br> 
+                                <fieldset><CENTER><b>TABLA </b>CELLPADDING<br>	<hr>
+                                    <TABLE BORDER CELLPADDING=0 CELLSPACING=10>
+                                        <TR>
+                                            <TD>A</TD> <TD>B</TD> <TD>C</TD>
+                                        </TR>
+                                        <TR>
+                                            <TD>D</TD> <TD>E</TD> <TD>F</TD>
+                                        </TR>
+                                    </TABLE>
+                                    
+                                      
+                                </fieldset><br> 
+
+                                <br><br><br> 
+                                <fieldset><CENTER><b>TABLA </b> BORDER WITDTH<br>	<hr>
+                                   
+                                    <TABLE BORDER WIDTH="100%">
+                                        <TR><TD>WIDTH=100%</TD><TD>Celda 2</TD>
+                                        </TR>
+                                        <TR><TD>3</TD><TD>Celda 4</TD>
+                                        </TR>
+                                    </TABLE>
+                                    
+                                      
+                                </fieldset><br> 
+                                <br><br><br> 
+                                <fieldset><CENTER><b>TABLA </b> WIDTH HEIGHT<br>	<hr>
+                                    <TABLE BORDER WIDTH="50%" HEIGHT="25%">
+                                        <TR><TD>HEIGHT=15%</TD> <TD>Item 2</TD>
+                                        </TR>
+                                        <TR><TD>3</TD><TD>4</TD>
+                                        </TR>
+                                    </TABLE>
+                                    
+                                      
+                                </fieldset><br> 
+
+                                <br><br><br> <fieldset><CENTER><b>TABLA </b>bordercolor<br>	<hr>
+                                   
+                                    <TABLE BORDER=2 bordercolor="red" >
+                                        <TR><TD> Ejemplo de bordes</TD><TD> de color rojo </TD></TR>
+                                        <TR><TD> Ejemplo de bordes</TD><TD> de color rojo </TD></TR>
+                                        </TABLE>
+                                      
+                                </fieldset><br> 
+                                <br><br><br> <fieldset><CENTER><b>TABLA </b>BORDER <br><br>	<hr>
+                                    <TABLE BORDER=10>
+                                        <TR>	<TD>Item 1</TD> <TD> Item 2</TD>
+                                        </TR>
+                                        <TR>	<TD>Item 3</TD> <TD>Item 4</TD> 
+                                        </TR>
+                                    </TABLE>
+                                    <br>
+                                      
+                                </fieldset><br> 
+                               
+                       </main>
+                              <br><br><br><br><br>
+                              <hr>
+                     <footer>
+                            <MARQUEE WIDTH=100% HEIGHT=100>CURSO DE HTML VENEZOLANA DE TELEVISION </MARQUEE>
+                            <center><h3>EL QUE OBTIENE EL CONOCIMIENTO TIENE EL PODER</h3>
+                            <center><h4> Division de Desarrollo Venezolana de Television .Todos los derechos reservados © 2022</h4>                                                     
+                     </footer><!------------------------------------------------------------------------------------>
+               
+        </body><!--------------------------------------------------------------------------------------->     
+</html>
+
