@@ -1,0 +1,396 @@
+<!DOCTYPE html><!--ESQUEMA GENERAL HTML5-->
+<html lang="es"><!--CONTENEDOR PADRE El TRIBUTO LANG ES EL LENGUAJE -->
+       <head> <!--CABEZERA DEL DOCUMENTO NO ES VISUAL AL USUARIO-->
+              <meta name="viewport"    charset="UTF-8"> <!--PARA QUE EL NAVEGADOR PUEDA LEER CARACTERES ESPECIALES Y TAMBIEN UTF-16 Y UTF-32-->
+              <meta name="description" content="PROGRAMACION"><!--TEMA QUE SALDRA EN EL BUSCADOR -->
+              <meta name="robots"      content="index,follow"><!--SEAN VISIBLE EN TODOS LOS BUSCADOR -->
+              <meta name="viewport"    content="width=device-width, initial-scale=1.0"><!--SEAN RESPONSIVE LAS PAGINAS -->
+              <title>HTML DANNY-FORM</title> <!--TITULO DE MI PAGINA -->
+              <link rel="stylesheet"    href="#"><!--LLAMA ESTILOS CSS DE LAS PAGINAS  -->
+              <script type="text/javascript" src="#"></script><!--LLAMA ARCHIVOS JAVASCRIPT  -->
+              <link rel="shortcut icon" href="imagenes/favicon-html.png"><!--IMAGEN DE ICO PARA LA VENTANA DE NAVEGACION-->
+       </head>
+        <body><!--CUERPO DEL DOCUMENTO-->
+             <section><!--CONTENEDOR SECCIONAMIENTOS-->
+                  <center><img src="imagenes/logo-html.png" ><!--INSERTA IMAGEN  -->  
+                  <center><h3>MI CURSO DE HTML DANNY JIMENEZ</h3>  <!--ETIQUETA DE TAMAÑAO DE LETRAS -->    
+              </section>    
+                     <header> 
+                               <center><h1>FORMULARIO</h1><hr>
+                                   <br><a href="index.html">REGRESAR</a> <br> <br>
+                      </header>                 
+                       <main>
+
+
+                            <fieldset><CENTER><b>ATRIBUTOS DE LOS FORMULARIOS </b><br>	<br><br>
+                                   <form action="#" method="#">
+                                          <label for="nombre">required:</label>
+                                          <input type="text" id="nombre" name="nombre" placeholder=" Nonmbre" required><br><br>
+                                          <label for="apellidos">placeholder:</label>
+                                          <input type="text" id="apellidos" name="apellidos" placeholder="Apellidos" required><br><br>
+                                          <label for="cedula">readonly:</label>
+                                          <input type="text" id="cedula" name="cedula" value="readonly" placeholder=" Cedula" required  readonly><br><br>
+                                          <label for="cedula">disabled:</label>
+                                          <input type="text" id="cedula" name="cedula" value="disabled" placeholder=" Cedula" required  readonly><br><br>
+                                          <label for="cedula">MIN Y MAX:</label>
+                                          <input type="number" name="numero" min="5" max="10"><br><br>
+                                           Maximo de Caracteres
+                                          <input type="text" minlength="4"  maxlength="5" name="Apellidos" title="Apellidos"><br><br>
+                                          Autofocus 
+                                          <input type="text" id="nombre" name="nombre" placeholder=" Nonmbre" required autofocus><br><br>
+                                          <input type="submit" value="Enviar">
+                                          <input type="reset" value="Borrar"> 
+                                   </form>
+
+                            </fieldset><br>  
+
+
+
+
+
+
+
+
+
+
+                                   <fieldset><CENTER><b>FORMULARIO SIMPLE</b> = form<br>	<br><br>
+
+
+                                          <form action="#" method="#">
+                                                 <label for="nombre">Nombre:</label>
+                                                 <input type="text" id="nombre" name="nombre" placeholder=" Nonmbre" required><br><br>
+                                                 <label for="apellidos">Apellidos:</label>
+                                                 <input type="text" id="apellidos" name="apellidos" placeholder="Apellidos" required><br><br>
+                                                 <label for="cedula">Cedula:</label>
+                                                 <input type="text" id="cedula" name="cedula" placeholder=" Cedula" required><br><br>
+                                                 <input type="submit" value="Enviar">
+                                                 <input type="reset" value="Borrar"> 
+                                          </form>
+
+                                   </fieldset><br>  
+
+
+
+
+                                   <fieldset><CENTER><b>FORMULARIO VERIFICACION</b><br>	<br><br>
+
+
+                                          <form action="#result.php" target="_blank">
+
+                                                 <p>
+                                               
+                                                   Selecciona el Lenguaje:<br><BR>
+                                               
+                                                   <input type="checkbox" name="peliculas">HTML<br>
+                                               
+                                                   <input type="checkbox" name="deportes">CSS<br>
+                                               
+                                                   <input type="checkbox" name="videojuegos">JAVA
+                                               
+                                                 </p>
+                                               
+                                                 <p><input type="submit" value="Enviar información"></p>
+                                               
+                                               </form>
+
+                                   </fieldset><br>  
+
+                                   <fieldset><CENTER><b>FORMULARIO DE OPCIÓN</b><br>	<br><br>
+
+                                          <form action="#result.php" target="_blank">
+
+                                                 <p>
+                                               
+                                                   Ingresos:<br><BR>
+                                               
+                                                   <input type="radio" name="ingresos" value="menosde1000"> Menos $1,000.00<br>
+                                               
+                                                   <input type="radio" name="ingresos" value="de1000a5000"> De $1,000.00 a $5,000.00<br>
+                                               
+                                                   <input type="radio" name="ingresos" value="masde5000"> Más de $15,000.00
+                                               
+                                                 </p>
+                                               
+                                                 <p><input type="submit" value="Enviar información"></p>
+                                               
+                                               </form>
+                                         
+
+
+
+                                   </fieldset><br>  
+
+
+
+                                   <fieldset><CENTER><b>FORMULARIO DE LISTAS</b><br>	<br><br>
+
+                                          <form action="#danny.php" target="_blank">
+
+                                                 <p>
+                                               
+                                                   Género:
+                                               
+                                                   <select name="genero">
+                                               
+                                                     <option>Masculino</option>
+                                               
+                                                     <option>Femenino</option>
+                                               
+                                                     <option>Femenino</option>
+                                                   </select>
+                                               
+                                                 </p>
+                                               
+                                                 <p><input type="submit" value="Enviar información"></p>
+                                               
+                                               </form>
+                                         
+
+
+
+                                   </fieldset><br>  
+                               
+
+
+                                   <fieldset><CENTER><b>FORMULARIO DE CATEGORIAS</b><br>	<br><br>
+
+                                          
+                                          <form action="#danny.php" target="_blank">
+
+                                                 <p>
+                                               
+                                                   Selecciona categorías:<br>
+                                               
+                                                   <select multiple name="categorias[]">
+                                               
+                                                     <option value="arte">Arte y entretenimiento</option>
+                                               
+                                                     <option value="tv">Televisión y películas</option>
+                                               
+                                                     <option value="ninos">Niños y adolescentes</option>
+                                               
+                                                     <option value="hazlotu">Hazlo tu mismo</option>
+                                               
+                                                   </select>
+                                               
+                                                 </p>
+                                               
+                                                 <p><input type="submit" value="Enviar información"></p>
+                                               
+                                               </form>
+
+
+
+                                   </fieldset><br>  
+                               
+                                   <fieldset><CENTER><b>FORMULARIO DE ENVIAR</b><br>	<br><br>
+
+                                          
+                                          <form action="#DANNY.php" target="_blank">
+
+                                                 <p>
+                                               
+                                                   Edita tu descripción:
+                                               
+                                                   <input type="text" name="desc">
+                                               
+                                                   <input type="submit" value="Guardar cambios">
+                                               
+                                                 </p>
+                                               
+                                               </form>
+
+
+
+                                   </fieldset><br>  
+                               
+                                   <fieldset><CENTER><b>FORMULARIO COMBINADO </b><br>	<br><br>
+
+                                          
+                                          <form action="#danny.php" target="_blank">
+
+                                                 <p>Enviar mensaje: <input type="text" name="mensaje" value="CURSO HTML"></p>
+                                               
+                                                 <p>
+                                               
+                                                   <input type="radio" name="cuando" value="hoy" checked> Hoy<br>
+                                               
+                                                   <input type="radio" name="cuando" value="manana"> Mañana
+                                               
+                                                 </p>
+                                               
+                                                 <p><input type="checkbox" name="copia" checked> Enviarme una copia</p>
+                                               
+                                                 <p>
+                                               
+                                                   <input type="reset" value="Reiniciar el formulario">
+                                               
+                                                   <input type="submit" value="Enviar mensaje">
+                                               
+                                                 </p>
+                                               
+                                               </form>
+
+
+
+                                   </fieldset><br>  
+                               
+                                   <fieldset><CENTER><b>FORMULARIO DE ETIQUETADO DE CONTROLES </b><br>	<br><br>
+
+                                          <form action="#danny.php" target="_blank">
+
+                                                 <p><label>Nombre: <input type="text" name="nombre"></label></p>
+                                               
+                                                 <p>
+                                               
+                                                   Género:
+                                               
+                                                   <label><input type="radio" name="genero" value="masculino"> Masculino</label>
+                                               
+                                                   <label><input type="radio" name="genero" value="femenino"> Femenino</label>
+                                               
+                                                 </p>
+                                               
+                                                 <p><label><input type="checkbox" name="novedades"> Me gustaría recibir novedades</label></p>
+                                               
+                                                 <p><input type="submit" value="Enviar datos"></p>
+                                               
+                                               </form>
+                                         
+
+
+
+                                   </fieldset><br>  
+
+
+
+                                   <fieldset><CENTER><b>FORMULARIO DE  AGRUPACIÓN</b><br>	<br><br>
+
+                                          
+                                          <form action="#form-result.php" target="_blank">
+
+                                                 <fieldset>
+                                               
+                                                   <legend>Información personal</legend>
+                                               
+                                                   <p><label>Nombre: <input type="text" name="nombre"></label></p>
+                                               
+                                                   <p><label>Dirección: <input type="text" name="direccion"></label></p>
+                                               
+                                                 </fieldset>
+                                               
+                                                 <fieldset>
+                                               
+                                                   <legend>Preferencias</legend>
+                                               
+                                                   <p>
+                                               
+                                                     <label><input type="checkbox" name="arte"> Arte</label><br>
+                                               
+                                                     <label><input type="checkbox" name="television"> Televisión</label><br>
+                                               
+                                                     <label><input type="checkbox" name="videojuegos"> Videojuegos</label><br>
+                                               
+                                                     <label><input type="checkbox" name="deportes"> Deportes</label><br>
+                                               
+                                                   </p>
+                                               
+                                                 </fieldset>
+                                               
+                                                 <input type="submit" value="Enviar">
+                                               
+                                               </form>
+
+
+
+                                   </fieldset><br>  
+                                   <fieldset><CENTER><b>FORMULARIO COMBINADO</b><br>	<br><br>
+
+                                         
+
+                                          <p>A través de este formulario puedes enviarme un mensaje para ayudarme a corregir errores, a mejorar mi blog, o simplemente para decir hola. Cualquier cosa que tengas para decir es bienvenida, así que no lo dudes y déjame un mensaje. Estaré feliz de contestarte!</p>
+                                          
+                                          <form action="../../form-result.php" target="_blank">
+                                          
+                                            <fieldset>
+                                          
+                                              <legend>Mensaje</legend>
+                                          
+                                              <p><label>Tu nombre: <input type="text" name="nombre"></label></p>
+                                          
+                                              <p><label>Tu dirección de correo: <input type="text" name="correo"></label></p>
+                                          
+                                              <p>
+                                          
+                                                <label>
+                                          
+                                                  Tu mensaje:<br>
+                                          
+                                                  <textarea name="mensaje"></textarea>
+                                          
+                                                </label>
+                                          
+                                              </p>
+                                          
+                                            </fieldset>
+                                          
+                                            <fieldset>
+                                          
+                                              <legend>Nuevos temas</legend>
+                                          
+                                              <p>
+                                          
+                                                ¿Qué temas te gustaría que trate más en mi sitio?<br>
+                                          
+                                                <label><input type="checkbox" name="html"> HTML</label>
+                                          
+                                                <label><input type="checkbox" name="graficos"> Gráficos</label>
+                                          
+                                                <label><input type="checkbox" name="videojuegos"> Videojuegos</label>
+                                          
+                                                <label><input type="checkbox" name="arte"> Arte</label>
+                                          
+                                                <label><input type="checkbox" name="musica"> Música</label>
+                                          
+                                              </p>
+                                          
+                                            </fieldset>
+                                          
+                                            <p>
+                                          
+                                              <input type="submit" value="Enviar mensaje">
+                                          
+                                              <input type="reset" value="Comenzar de nuevo">
+                                          
+                                            </p>
+                                          
+                                          </form>  
+                                         
+
+
+
+                                   </fieldset><br>  
+                                   
+
+
+
+
+
+
+
+
+
+
+                               
+                       </main>
+                              <br><br><br><br><br>
+                              <hr>
+                     <footer>
+                            <MARQUEE WIDTH=100% HEIGHT=100>CURSO DE HTML VENEZOLANA DE TELEVISION </MARQUEE>
+                            <center><h3>EL QUE OBTIENE EL CONOCIMIENTO TIENE EL PODER</h3>
+                            <center><h4> Division de Desarrollo Venezolana de Television .Todos los derechos reservados © 2022</h4>                                                     
+                     </footer><!------------------------------------------------------------------------------------>
+               
+        </body><!--------------------------------------------------------------------------------------->     
+</html>
+

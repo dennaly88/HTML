@@ -1,0 +1,198 @@
+<!DOCTYPE html><!--ESQUEMA GENERAL HTML5-->
+<html lang="es"><!--CONTENEDOR PADRE El TRIBUTO LANG ES EL LENGUAJE -->
+       <head> <!--CABEZERA DEL DOCUMENTO NO ES VISUAL AL USUARIO-->
+              <meta name="viewport"    charset="UTF-8"> <!--PARA QUE EL NAVEGADOR PUEDA LEER CARACTERES ESPECIALES Y TAMBIEN UTF-16 Y UTF-32-->
+              <meta name="description" content="PROGRAMACION"><!--TEMA QUE SALDRA EN EL BUSCADOR -->
+              <meta name="robots"      content="index,follow"><!--SEAN VISIBLE EN TODOS LOS BUSCADOR -->
+              <meta name="viewport"    content="width=device-width, initial-scale=1.0"><!--SEAN RESPONSIVE LAS PAGINAS -->
+              <title>HTML DANNY-ENLACES</title> <!--TITULO DE MI PAGINA -->
+              <link   rel="stylesheet"    href="#"><!--LLAMA ESTILOS CSS DE LAS PAGINAS  -->
+              <script type="text/javascript" src="#"></script><!--LLAMA ARCHIVOS JAVASCRIPT  -->
+              <link rel="shortcut icon" href="imagenes/favicon-html.png"><!--IMAGEN DE ICO PARA LA VENTANA DE NAVEGACION-->
+       </head> 
+        <body><!--CUERPO DEL DOCUMENTO-->
+             <section><!--CONTENEDOR SECCIONAMIENTOS-->
+                  <center><img src="imagenes/logo-html.png" ><!--INSERTA IMAGEN  -->  
+                  <center><h3>MI CURSO DE HTML DANNY JIMENEZ</h3>  <!--ETIQUETA DE TAMAÑAO DE LETRAS -->    
+              </section>    
+                     <header> 
+                               <center><h1>ENLACES</h1><hr>
+                                   <br><a href="index.html">REGRESAR</a> <br> <br>
+                      </header>                 
+                       <main><br>
+                                <fieldset><CENTER><b>ENLACE</b> = INTERNO<br>
+                                     <br>    <a href="7.Texto.html">IR</a> <br> <br>
+                                </fieldset><br>              
+                             
+                                <fieldset><CENTER><b>ENLACE</b> = RUTAS ABSOLUTAS <br>
+                                   <br><br>  <a href="https://www.google.com/?hl=es">IR A GOOGLE </a><br>
+                              </fieldset><br>              
+                                 
+                              <fieldset><CENTER><b>ENLACE</b> = RUTAS RELATIVAS <br>
+                                   <br><br>  <a href="6.Plantilla.html">IR A PLANTILLA </a><br>
+                              </fieldset><br>   
+                               
+                              
+                              <fieldset><CENTER><b>ENLACE OTRA PESTAÑA</b> = target="_blank"
+                                   <br><br>   <a target="_blank" href="6.Plantilla.html">IR A ENLACE OTRA PESTAÑA</a><br>
+                              </fieldset><br>   
+
+                             
+                              <fieldset><CENTER><b>ENLACE TIPO VENTANA</b> = blank" onclick
+                                   <br><br>   <a href="6.Plantilla.html"  target="_blank" onclick="window.open(this.href, this.target, 'width=600,height=400'); return false;">TIPO VENTANA</a><br>
+                              </fieldset><br> 
+
+
+                              <fieldset><CENTER><b>ENLACE TIPO DESCARGA</b> = download
+                                   <br><br>
+                                   <a href="../Curso/documentos/HTML.pdf" download>DESCARGA</a>
+                                    <br><br>
+                              </fieldset><br> 
+              
+                              <fieldset><CENTER><b>ENLACE TIPO CORREO</b> = MAIL
+                                   <br><br>
+                                   <a href="mailto:dennaly88@gamil.com">CORREO</a>
+                                    <br><br>
+                              </fieldset><br> 
+                              
+                              <fieldset><CENTER><b>ENLACE A UN DIRECTORIO</b> = directorio/
+                                   <br><br>
+                                   <a href="documentos/">DIRECTORIO</a>
+                                    <br><br>
+                              </fieldset><br> 
+                           
+                              <fieldset><CENTER><b>ENLACE A UNA IMAGEN</b> = imagen/
+                                   <br><br>
+                                   <a href="imagenes/HTML.jpg">IMAGEN</a>
+                                    <br><br>
+                              </fieldset><br> 
+                              <fieldset><CENTER><b>ENLACE A UN ARCHIVO</b> = archivo/
+                                   <br><br>
+                                   <a href="documentos/HTML.pdf">ARCHIVO</a>
+                                    <br><br>
+                              </fieldset><br> 
+                              <fieldset><CENTER><b>ENLACE A UN AUDIO</b> = audio/
+                                   <br><br>
+                                   <a href="audio/Loco.mp3">AUDIO</a>
+                                    <br><br>
+                              </fieldset><br> 
+                              <fieldset><CENTER><b>ENLACE A UN VIDEO</b> = video/
+                                   <br><br>
+                                   <a href="video/tato.mp4">VIDEO</a>
+                                    <br><br>
+                              </fieldset><br> 
+
+
+                              <fieldset><CENTER><b>ENLACE CON ANCLAS</b> 
+                                   <br><br>
+                                 
+<section>
+                                                  <nav>
+                                                     <p><a href="#enlace-1">RUTAS ABSOLUTAS</a></p> 
+                                                     <p><a href="#enlace-2">RUTAS RELATIVAS</a></p> 
+                                                     <p><a href="#enlace-3">TARGET</a></p> 
+                                                     <p><a href="#enlace-4">ENLACE TIPO DESCARGA</a></p> 
+                                                     <p><a href="#enlace-5">ENLACE TIPO CORREO</a></p> 
+                                                     <p><a href="#enlace-6">ENLACE TIPO AUDIO</a></p> 
+                                                     <p><a href="#enlace-7">ENLACE TIPO IMAGEN</a></p> 
+                                                     <p><a href="#enlace-8">ENLACE TIPO VIDEO</a></p> 
+                                                  </nav>
+                                              <article >
+                                                     <h2 id=enlace-1>RUTAS ABSOLUTAS</h2>
+                                                            <P>
+                                                                 Son todos aquellos enlaces que dirigen a una dirección web o URL, también es conocido cotidianamente como «link». Este enlace es el más común en internet, y el que aconsejamos usar SIEMPRE, ya que entre las buenas prácticas SEO, se aconseja usarlo.estos enlaces de rutas absolutas en HTML pueden ser tanto externas (enlaces de tu propio sitio web), o enlaces externos (enlaces a otros sitios web).
+                                                                 Son todos aquellos enlaces que dirigen a una dirección web o URL, también es conocido cotidianamente como «link». Este enlace es el más común en internet, y el que aconsejamos usar SIEMPRE, ya que entre las buenas prácticas SEO, se aconseja usarlo.estos enlaces de rutas absolutas en HTML pueden ser tanto externas (enlaces de tu propio sitio web), o enlaces externos (enlaces a otros sitios web).
+                                                                 Son todos aquellos enlaces que dirigen a una dirección web o URL, también es conocido cotidianamente como «link». Este enlace es el más común en internet, y el que aconsejamos usar SIEMPRE, ya que entre las buenas prácticas SEO, se aconseja usarlo.estos enlaces de rutas absolutas en HTML pueden ser tanto externas (enlaces de tu propio sitio web), o enlaces externos (enlaces a otros sitios web).
+                                                                 Son todos aquellos enlaces que dirigen a una dirección web o URL, también es conocido cotidianamente como «link». Este enlace es el más común en internet, y el que aconsejamos usar SIEMPRE, ya que entre las buenas prácticas SEO, se aconseja usarlo.estos enlaces de rutas absolutas en HTML pueden ser tanto externas (enlaces de tu propio sitio web), o enlaces externos (enlaces a otros sitios web).
+                                                                 Son todos aquellos enlaces que dirigen a una dirección web o URL, también es conocido cotidianamente como «link». Este enlace es el más común en internet, y el que aconsejamos usar SIEMPRE, ya que entre las buenas prácticas SEO, se aconseja usarlo.estos enlaces de rutas absolutas en HTML pueden ser tanto externas (enlaces de tu propio sitio web), o enlaces externos (enlaces a otros sitios web).
+                                                            </P>  
+                                                  </article>
+                                                  <article id=enlace-2>
+                                                       <h2>RUTAS RELATIVAS</h2>
+                                                               <P>    
+                                                                 Son enlaces HTML locales que buscan algún contenido dentro del ordenador o servidor. Recomendamos usar lo menos posible las rutas relativas en tu documento HTML puesto que podrían ocasionarte confusiones futuras debido a su estructura.
+                                                                 Son enlaces HTML locales que buscan algún contenido dentro del ordenador o servidor. Recomendamos usar lo menos posible las rutas relativas en tu documento HTML puesto que podrían ocasionarte confusiones futuras debido a su estructura.
+                                                                 Son enlaces HTML locales que buscan algún contenido dentro del ordenador o servidor. Recomendamos usar lo menos posible las rutas relativas en tu documento HTML puesto que podrían ocasionarte confusiones futuras debido a su estructura.
+                                                                 Son enlaces HTML locales que buscan algún contenido dentro del ordenador o servidor. Recomendamos usar lo menos posible las rutas relativas en tu documento HTML puesto que podrían ocasionarte confusiones futuras debido a su estructura.
+                                                                 Son enlaces HTML locales que buscan algún contenido dentro del ordenador o servidor. Recomendamos usar lo menos posible las rutas relativas en tu documento HTML puesto que podrían ocasionarte confusiones futuras debido a su estructura.
+                                                                 Son enlaces HTML locales que buscan algún contenido dentro del ordenador o servidor. Recomendamos usar lo menos posible las rutas relativas en tu documento HTML puesto que podrían ocasionarte confusiones futuras debido a su estructura.
+                                                                 Son enlaces HTML locales que buscan algún contenido dentro del ordenador o servidor. Recomendamos usar lo menos posible las rutas relativas en tu documento HTML puesto que podrían ocasionarte confusiones futuras debido a su estructura.
+                                                                 Son enlaces HTML locales que buscan algún contenido dentro del ordenador o servidor. Recomendamos usar lo menos posible las rutas relativas en tu documento HTML puesto que podrían ocasionarte confusiones futuras debido a su estructura.
+                                                                 Son enlaces HTML locales que buscan algún contenido dentro del ordenador o servidor. Recomendamos usar lo menos posible las rutas relativas en tu documento HTML puesto que podrían ocasionarte confusiones futuras debido a su estructura.
+
+                                                               </P>
+
+                                                   </article>
+
+
+                                                   <article id="enlace-3">
+                                                       <h2>TARGET</h2>
+                                                               <P>    
+                                                                 Este atributo especifica una ventana de navegador de destino. Si el valor del atributo format en el código es url , el valor escalar (valor en la lista, en el caso del código list) se formatea como enlace utilizando el código HTMLEste atributo especifica una ventana de navegador de destino. Si el valor del atributo format en el código es url , el valor escalar (valor en la lista, en el caso del código list) se formatea como enlace utilizando el código HTMLEste atributo especifica una ventana de navegador de destino. Si el valor del atributo format en el código es url , el valor escalar (valor en la lista, en el caso del código list) se formatea como enlace utilizando el código HTMLEste atributo especifica una ventana de navegador de destino. Si el valor del atributo format en el código es url , el valor escalar (valor en la lista, en el caso del código list) se formatea como enlace utilizando el código HTMLEste atributo especifica una ventana de navegador de destino. Si el valor del atributo format en el código es url , el valor escalar (valor en la lista, en el caso del código list) se formatea como enlace utilizando el código HTMLEste atributo especifica una ventana de navegador de destino. Si el valor del atributo format en el código es url , el valor escalar (valor en la lista, en el caso del código list) se formatea como enlace utilizando el código HTMLEste atributo especifica una ventana de navegador de destino. Si el valor del atributo format en el código es url , el valor escalar (valor en la lista, en el caso del código list) se formatea como enlace utilizando el código HTMLEste atributo especifica una ventana de navegador de destino. Si el valor del atributo format en el código es url , el valor escalar (valor en la lista, en el caso del código list) se formatea como enlace utilizando el código HTMLEste atributo especifica una ventana de navegador de destino. Si el valor del atributo format en el código es url , el valor escalar (valor en la lista, en el caso del código list) se formatea como enlace utilizando el código HTMLEste atributo especifica una ventana de navegador de destino. Si el valor del atributo format en el código es url , el valor escalar (valor en la lista, en el caso del código list) se formatea como enlace utilizando el código HTMLEste atributo especifica una ventana de navegador de destino. Si el valor del atributo format en el código es url , el valor escalar (valor en la lista, en el caso del código list) se formatea como enlace utilizando el código HTMLEste atributo especifica una ventana de navegador de destino. Si el valor del atributo format en el código es url , el valor escalar (valor en la lista, en el caso del código list) se formatea como enlace utilizando el código HTMLEste atributo especifica una ventana de navegador de destino. Si el valor del atributo format en el código es url , el valor escalar (valor en la lista, en el caso del código list) se formatea como enlace utilizando el código HTML
+
+                                                               </P>
+
+                                                   </article>
+
+                                                   <article id="enlace-4">
+                                                       <h2>ENLACE TIPO DESCARGA</h2>
+                                                               <P>    
+                                                                 Este atributo especifica una ventana de navegador de destino. Si el valor del atributo format en el código es url , el valor escalar (valor en la lista, en el caso del código list) se formatea como enlace utilizando el código HTMLEste atributo especifica una ventana de navegador de destino. Si el valor del atributo format en el código es url , el valor escalar (valor en la lista, en el caso del código list) se formatea como enlace utilizando el código HTMLEste atributo especifica una ventana de navegador de destino. Si el valor del atributo format en el código es url , el valor escalar (valor en la lista, en el caso del código list) se formatea como enlace utilizando el código HTMLEste atributo especifica una ventana de navegador de destino. Si el valor del atributo format en el código es url , el valor escalar (valor en la lista, en el caso del código list) se formatea como enlace utilizando el código HTMLEste atributo especifica una ventana de navegador de destino. Si el valor del atributo format en el código es url , el valor escalar (valor en la lista, en el caso del código list) se formatea como enlace utilizando el código HTMLEste atributo especifica una ventana de navegador de destino. Si el valor del atributo format en el código es url , el valor escalar (valor en la lista, en el caso del código list) se formatea como enlace utilizando el código HTMLEste atributo especifica una ventana de navegador de destino. Si el valor del atributo format en el código es url , el valor escalar (valor en la lista, en el caso del código list) se formatea como enlace utilizando el código HTMLEste atributo especifica una ventana de navegador de destino. Si el valor del atributo format en el código es url , el valor escalar (valor en la lista, en el caso del código list) se formatea como enlace utilizando el código HTMLEste atributo especifica una ventana de navegador de destino. Si el valor del atributo format en el código es url , el valor escalar (valor en la lista, en el caso del código list) se formatea como enlace utilizando el código HTMLEste atributo especifica una ventana de navegador de destino. Si el valor del atributo format en el código es url , el valor escalar (valor en la lista, en el caso del código list) se formatea como enlace utilizando el código HTML
+
+                                                               </P>
+
+                                                   </article>
+                                                   <article id="enlace-5">
+                                                       <h2>ENLACE TIPO CORREO</h2>
+                                                               <P>    
+                                                                 Este atributo especifica una ventana de navegador de destino. Si el valor del atributo format en el código es url , el valor escalar (valor en la lista, en el caso del código list) se formatea como enlace utilizando el código HTMLEste atributo especifica una ventana de navegador de destino. Si el valor del atributo format en el código es url , el valor escalar (valor en la lista, en el caso del código list) se formatea como enlace utilizando el código HTMLEste atributo especifica una ventana de navegador de destino. Si el valor del atributo format en el código es url , el valor escalar (valor en la lista, en el caso del código list) se formatea como enlace utilizando el código HTMLEste atributo especifica una ventana de navegador de destino. Si el valor del atributo format en el código es url , el valor escalar (valor en la lista, en el caso del código list) se formatea como enlace utilizando el código HTMLEste atributo especifica una ventana de navegador de destino. Si el valor del atributo format en el código es url , el valor escalar (valor en la lista, en el caso del código list) se formatea como enlace utilizando el código HTMLEste atributo especifica una ventana de navegador de destino. Si el valor del atributo format en el código es url , el valor escalar (valor en la lista, en el caso del código list) se formatea como enlace utilizando el código HTMLEste atributo especifica una ventana de navegador de destino. Si el valor del atributo format en el código es url , el valor escalar (valor en la lista, en el caso del código list) se formatea como enlace utilizando el código HTMLEste atributo especifica una ventana de navegador de destino. Si el valor del atributo format en el código es url , el valor escalar (valor en la lista, en el caso del código list) se formatea como enlace utilizando el código HTMLEste atributo especifica una ventana de navegador de destino. Si el valor del atributo format en el código es url , el valor escalar (valor en la lista, en el caso del código list) se formatea como enlace utilizando el código HTML
+
+                                                               </P>
+
+                                                   </article>
+                                                   <article id="enlace-6">
+                                                  
+                                                   <h2> ENLACE TIPO AUDIO</h2>
+                                                               <P>    
+                                                                 Este atributo especifica una ventana de navegador de destino. Si el valor del atributo format en el código es url , el valor escalar (valor en la lista, en el caso del código list) se formatea como enlace utilizando el código HTMLEste atributo especifica una ventana de navegador de destino. Si el valor del atributo format en el código es url , el valor escalar (valor en la lista, en el caso del código list) se formatea como enlace utilizando el código HTMLEste atributo especifica una ventana de navegador de destino. Si el valor del atributo format en el código es url , el valor escalar (valor en la lista, en el caso del código list) se formatea como enlace utilizando el código HTMLEste atributo especifica una ventana de navegador de destino. Si el valor del atributo format en el código es url , el valor escalar (valor en la lista, en el caso del código list) se formatea como enlace utilizando el código HTMLEste atributo especifica una ventana de navegador de destino. Si el valor del atributo format en el código es url , el valor escalar (valor en la lista, en el caso del código list) se formatea como enlace utilizando el código HTMLEste atributo especifica una ventana de navegador de destino. Si el valor del atributo format en el código es url , el valor escalar (valor en la lista, en el caso del código list) se formatea como enlace utilizando el código HTMLEste atributo especifica una ventana de navegador de destino. Si el valor del atributo format en el código es url , el valor escalar (valor en la lista, en el caso del código list) se formatea como enlace utilizando el código HTMLEste atributo especifica una ventana de navegador de destino. Si el valor del atributo format en el código es url , el valor escalar (valor en la lista, en el caso del código list) se formatea como enlace utilizando el código HTMLEste atributo especifica una ventana de navegador de destino. Si el valor del atributo format en el código es url , el valor escalar (valor en la lista, en el caso del código list) se formatea como enlace utilizando el código HTMLEste atributo especifica una ventana de navegador de destino. Si el valor del atributo format en el código es url , el valor escalar (valor en la lista, en el caso del código list) se formatea como enlace utilizando el código HTMLEste atributo especifica una ventana de navegador de destino. Si el valor del atributo format en el código es url , el valor escalar (valor en la lista, en el caso del código list) se formatea como enlace utilizando el código HTMLEste atributo especifica una ventana de navegador de destino. Si el valor del atributo format en el código es url , el valor escalar (valor en la lista, en el caso del código list) se formatea como enlace utilizando el código HTMLEste atributo especifica una ventana de navegador de destino. Si el valor del atributo format en el código es url , el valor escalar (valor en la lista, en el caso del código list) se formatea como enlace utilizando el código HTML
+
+                                                               </P>
+
+                                                   </article>
+                                                   <article id="enlace-7">
+                                                       <h2> ENLACE TIPO IMAGEN</h2>
+                                                               <P>    
+                                                                 Este atributo especifica una ventana de navegador de destino. Si el valor del atributo format en el código es url , el valor escalar (valor en la lista, en el caso del código list) se formatea como enlace utilizando el código HTMLEste atributo especifica una ventana de navegador de destino. Si el valor del atributo format en el código es url , el valor escalar (valor en la lista, en el caso del código list) se formatea como enlace utilizando el código HTMLEste atributo especifica una ventana de navegador de destino. Si el valor del atributo format en el código es url , el valor escalar (valor en la lista, en el caso del código list) se formatea como enlace utilizando el código HTMLEste atributo especifica una ventana de navegador de destino. Si el valor del atributo format en el código es url , el valor escalar (valor en la lista, en el caso del código list) se formatea como enlace utilizando el código HTMLEste atributo especifica una ventana de navegador de destino. Si el valor del atributo format en el código es url , el valor escalar (valor en la lista, en el caso del código list) se formatea como enlace utilizando el código HTMLEste atributo especifica una ventana de navegador de destino. Si el valor del atributo format en el código es url , el valor escalar (valor en la lista, en el caso del código list) se formatea como enlace utilizando el código HTMLEste atributo especifica una ventana de navegador de destino. Si el valor del atributo format en el código es url , el valor escalar (valor en la lista, en el caso del código list) se formatea como enlace utilizando el código HTMLEste atributo especifica una ventana de navegador de destino. Si el valor del atributo format en el código es url , el valor escalar (valor en la lista, en el caso del código list) se formatea como enlace utilizando el código HTMLEste atributo especifica una ventana de navegador de destino. Si el valor del atributo format en el código es url , el valor escalar (valor en la lista, en el caso del código list) se formatea como enlace utilizando el código HTML
+
+                                                               </P>
+
+                                                   </article>
+                                                   <article id="enlace-8">
+                                                       <h2>ENLACE TIPO VIDEO </h2>
+                                                               <P>    
+                                                                 Este atributo especifica una ventana de navegador de destino. Si el valor del atributo format en el código es url , el valor escalar (valor en la lista, en el caso del código list) se formatea como enlace utilizando el código HTMLEste atributo especifica una ventana de navegador de destino. Si el valor del atributo format en el código es url , el valor escalar (valor en la lista, en el caso del código list) se formatea como enlace utilizando el código HTMLEste atributo especifica una ventana de navegador de destino. Si el valor del atributo format en el código es url , el valor escalar (valor en la lista, en el caso del código list) se formatea como enlace utilizando el código HTMLEste atributo especifica una ventana de navegador de destino. Si el valor del atributo format en el código es url , el valor escalar (valor en la lista, en el caso del código list) se formatea como enlace utilizando el código HTMLEste atributo especifica una ventana de navegador de destino. Si el valor del atributo format en el código es url , el valor escalar (valor en la lista, en el caso del código list) se formatea como enlace utilizando el código HTMLEste atributo especifica una ventana de navegador de destino. Si el valor del atributo format en el código es url , el valor escalar (valor en la lista, en el caso del código list) se formatea como enlace utilizando el código HTMLEste atributo especifica una ventana de navegador de destino. Si el valor del atributo format en el código es url , el valor escalar (valor en la lista, en el caso del código list) se formatea como enlace utilizando el código HTMLEste atributo especifica una ventana de navegador de destino. Si el valor del atributo format en el código es url , el valor escalar (valor en la lista, en el caso del código list) se formatea como enlace utilizando el código HTMLEste atributo especifica una ventana de navegador de destino. Si el valor del atributo format en el código es url , el valor escalar (valor en la lista, en el caso del código list) se formatea como enlace utilizando el código HTML
+
+                                                               </P>
+
+                                                   </article>
+
+
+
+                                                  </section>
+                                    <br><br>
+                              </fieldset><br> 
+                             
+               
+
+                       </main>
+                              <br><br><br><br>
+                              <hr>
+                     <footer>
+                        <MARQUEE WIDTH=100% HEIGHT=100>CURSO DE HTML VENEZOLANA DE TELEVISION </MARQUEE>
+                            <center><h3>EL QUE OBTIENE EL CONOCIMIENTO TIENE EL PODER</h3>
+                            <center><h4> Division de Desarrollo Venezolana de Television .Todos los derechos reservados © 2022</h4>                                                     
+                     </footer><!------------------------------------------------------------------------------------>
+               
+        </body><!--------------------------------------------------------------------------------------->     
+</html>
+
